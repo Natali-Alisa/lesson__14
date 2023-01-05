@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson-14 </title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <span class="header__text"> I'm header  </span> 
+        </header>
+        <main class="main"> 
+            <div class="main__conteiner">             
+                <h1 class="first-title">Flexbox </h1>
+                <h2 class="title">Властивості FLEX-контейнера</h2>
+                <h3 class="sub-title"> display: flex </h3>
+                <div class="display-flex"> 
+                    <div class="display-flex__item"> 1 </div>
+                    <div class="display-flex__item"> 2 </div>
+                    <div class="display-flex__item"> 3 </div>
+                    <div class="display-flex__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> display: inline-flex </h3>
+                <div class="display-inline-flex"> 
+                    <div class="display-inline-flex__item"> 1 </div>
+                    <div class="display-inline-flex__item"> 2 </div>
+                    <div class="display-inline-flex__item"> 3 </div>
+                    <div class="display-inline-flex__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-wrap: wrap </h3>
+                <div class="flex-wrap"> 
+                    <div class="flex-wrap__item"> 1 </div>
+                    <div class="flex-wrap__item"> 2 </div>
+                    <div class="flex-wrap__item"> 3 </div>
+                    <div class="flex-wrap__item"> 4 </div>
+                    <div class="flex-wrap__item"> 5 </div>
+                    <div class="flex-wrap__item"> 6 </div>
+                    <div class="flex-wrap__item"> 7 </div>
+                    <div class="flex-wrap__item"> 8 </div>
+                    <div class="flex-wrap__item"> 9 </div>
+                    <div class="flex-wrap__item"> 10 </div>
+                    <div class="flex-wrap__item"> 11 </div>
+                    <div class="flex-wrap__item"> 12 </div>
+                    <div class="flex-wrap__item"> 13 </div>
+                    <div class="flex-wrap__item"> 14</div>
+                    <div class="flex-wrap__item"> 15 </div>
+                    <div class="flex-wrap__item"> 16 </div>
+                </div>
+                <h3 class="sub-title"> flex-wrap: nowrap (за замовченням) </h3>
+                <div class="wrap-nowrap"> 
+                    <div class="wrap-nowrap__item"> 1 </div>
+                    <div class="wrap-nowrap__item"> 2 </div>
+                    <div class="wrap-nowrap__item"> 3 </div>
+                    <div class="wrap-nowrap__item"> 4 </div>
+                    <div class="wrap-nowrap__item"> 5 </div>
+                    <div class="wrap-nowrap__item"> 6 </div>
+                    <div class="wrap-nowrap__item"> 7 </div>
+                    <div class="wrap-nowrap__item"> 8 </div>
+                    <div class="wrap-nowrap__item"> 9 </div>
+                    <div class="wrap-nowrap__item"> 10 </div>
+                    <div class="wrap-nowrap__item"> 11 </div>
+                    <div class="wrap-nowrap__item"> 12 </div>
+                    <div class="wrap-nowrap__item"> 13 </div>
+                    <div class="wrap-nowrap__item"> 14</div>
+                    <div class="wrap-nowrap__item"> 15 </div>
+                    <div class="wrap-nowrap__item"> 16 </div>
+                </div>
+                <h3 class="sub-title"> flex-wrap: wrap-reverse </h3>
+                <div class="wrap-reverse"> 
+                    <div class="wrap-reverse__item"> 1 </div>
+                    <div class="wrap-reverse__item"> 2 </div>
+                    <div class="wrap-reverse__item"> 3 </div>
+                    <div class="wrap-reverse__item"> 4 </div>
+                    <div class="wrap-reverse__item"> 5 </div>
+                    <div class="wrap-reverse__item"> 6 </div>
+                    <div class="wrap-reverse__item"> 7 </div>
+                    <div class="wrap-reverse__item"> 8 </div>
+                    <div class="wrap-reverse__item"> 9 </div>
+                    <div class="wrap-reverse__item"> 10 </div>
+                    <div class="wrap-reverse__item"> 11 </div>
+                    <div class="wrap-reverse__item"> 12 </div>
+                    <div class="wrap-reverse__item"> 13 </div>
+                    <div class="wrap-reverse__item"> 14</div>
+                    <div class="wrap-reverse__item"> 15 </div>
+                    <div class="wrap-reverse__item"> 16 </div>
+                </div>
+                <h3 class="sub-title"> justify-content: flex-start (за замовченням) </h3>
+                <div class="justify-contentstart"> 
+                    <div class="justify-contentstart__item"> 1 </div>
+                    <div class="justify-contentstart__item"> 2 </div>
+                    <div class="justify-contentstart__item"> 3 </div>
+                    <div class="justify-contentstart__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> justify-content: flex-end </h3>
+                <div class="justify-contentend"> 
+                    <div class="justify-contentend__item"> 1 </div>
+                    <div class="justify-contentend__item"> 2 </div>
+                    <div class="justify-contentend__item"> 3 </div>
+                    <div class="justify-contentend__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> justify-content: center </h3>
+                <div class="justify-contentcenter"> 
+                    <div class="justify-contentcenter__item"> 1 </div>
+                    <div class="justify-contentcenter__item"> 2 </div>
+                    <div class="justify-contentcenter__item"> 3 </div>
+                    <div class="justify-contentcenter__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> justify-content: space-between </h3>
+                <div class="space-between"> 
+                    <div class="space-between__item"> 1 </div>
+                    <div class="space-between__item"> 2 </div>
+                    <div class="space-between__item"> 3 </div>
+                    <div class="space-between__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> justify-content: space-around </h3>
+                <div class="space-around"> 
+                    <div class="space-around__item"> 1 </div>
+                    <div class="space-around__item"> 2 </div>
+                    <div class="space-around__item"> 3 </div>
+                    <div class="space-around__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> justify-content: space-evenly </h3>
+                <div class="space-evenly"> 
+                    <div class="space-evenly__item"> 1 </div>
+                    <div class="space-evenly__item"> 2 </div>
+                    <div class="space-evenly__item"> 3 </div>
+                    <div class="space-evenly__item"> 4 </div>
+                </div>
+                <h3 class="sub-title"> align-items: strech (за замовченням) </h3>
+                <div class="align-items"> 
+                    <div class="align-items__strech"> 1 </div>
+                    <div class="align-items__strech"> 2 </div>
+                    <div class="align-items__strech"> 3 </div>
+                    <div class="align-items__strech"> 4 </div>
+                </div>
+                <h3 class="sub-title"> align-items: flex-start </h3>
+                <div class="align-items2"> 
+                    <div class="align-items2__flex-start"> 1 </div>
+                    <div class="align-items2__flex-start"> 2 </div>
+                    <div class="align-items2__flex-start"> 3 </div>
+                    <div class="align-items2__flex-start"> 4 </div>
+                </div>
+                <h3 class="sub-title"> align-items: flex-end </h3>
+                <div class="align-items3"> 
+                    <div class="align-items3__flex-end"> 1 </div>
+                    <div class="align-items3__flex-end"> 2 </div>
+                    <div class="align-items3__flex-end"> 3 </div>
+                    <div class="align-items3__flex-end"> 4 </div>
+                </div>
+                <h3 class="sub-title"> align-items: center </h3>
+                <div class="align-items4"> 
+                    <div class="align-items4__center"> 1 </div>
+                    <div class="align-items4__center"> 2 </div>
+                    <div class="align-items4__center"> 3 </div>
+                    <div class="align-items4__center"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-direction: row (за замовченням) </h3>
+                <div class="flex-direction"> 
+                    <div class="flex-direction__row"> 1 </div>
+                    <div class="flex-direction__row"> 2 </div>
+                    <div class="flex-direction__row"> 3 </div>
+                    <div class="flex-direction__row"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-direction: row-reverse </h3>
+                <div class="flex-direction2"> 
+                    <div class="flex-direction2__row-reverse"> 1 </div>
+                    <div class="flex-direction2__row-reverse"> 2 </div>
+                    <div class="flex-direction2__row-reverse"> 3 </div>
+                    <div class="flex-direction2__row-reverse"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-direction: column </h3>
+                <div class="flex-direction3"> 
+                    <div class="flex-direction3__column"> 1 </div>
+                    <div class="flex-direction3__column"> 2 </div>
+                    <div class="flex-direction3__column"> 3 </div>
+                    <div class="flex-direction3__column"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-direction: column-reverse </h3>
+                <div class="flex-direction4"> 
+                    <div class="flex-direction4__column-reverse"> 1 </div>
+                    <div class="flex-direction4__column-reverse"> 2 </div>
+                    <div class="flex-direction4__column-reverse"> 3 </div>
+                    <div class="flex-direction4__column-reverse"> 4 </div>
+                </div>
+                <h2 class="title">Властивості FLEX-елементів</h2>
+                <h3 class="sub-title"> align-self: flex-start </h3>
+                <div class="align-self"> 
+                    <div class="align-self__flex-start"> 1 </div>
+                    <div class="align-self__flex-start"> 2 </div>
+                    <div class="align-self__flex-start"> 3 </div>
+                    <div class="align-self__flex-start"> 4 </div>
+                </div>
+
+                <h3 class="sub-title"> align-self: center </h3>
+                <div class="align-self"> 
+                    <div class="align-self__center"> 1 </div>
+                    <div class="align-self__center"> 2 </div>
+                    <div class="align-self__center"> 3 </div>
+                    <div class="align-self__center"> 4 </div>
+                </div>
+                <h3 class="sub-title"> align-self: flex-end </h3>
+                <div class="align-self"> 
+                    <div class="align-self__flex-end"> 1 </div>
+                    <div class="align-self__flex-end"> 2 </div>
+                    <div class="align-self__flex-end"> 3 </div>
+                    <div class="align-self__flex-end"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-grow: 1 </h3>
+                <div class="flex-grow"> 
+                    <div class="flex-grow__one"> 1 </div>
+                    <div class="flex-grow__one"> 2 </div>
+                    <div class="flex-grow__one"> 3 </div>
+                    <div class="flex-grow__one"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-shrink: 1 (за замовченням) </h3>
+                <div class="flex-shrink"> 
+                    <div class="flex-shrink__one"> 1 </div>
+                    <div class="flex-shrink__one"> 2 </div>
+                    <div class="flex-shrink__one"> 3 </div>
+                    <div class="flex-shrink__one"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex-shrink: 0 </h3>
+                <div class="flex-shrink"> 
+                    <div class="flex-shrink__zerro"> 1 </div>
+                    <div class="flex-shrink__zerro"> 2 </div>
+                    <div class="flex-shrink__zerro"> 3 </div>
+                    <div class="flex-shrink__zerro"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex (grow, shrink, basis) </h3>
+                <div class="flex-universal"> 
+                    <div class="flex-universal__three"> 1 </div>
+                    <div class="flex-universal__three"> 2 </div>
+                    <div class="flex-universal__three"> 3 </div>
+                    <div class="flex-universal__three"> 4 </div>
+                </div>
+                <h3 class="sub-title"> flex (3 колонинки в %) </h3>
+                <div class="flex-example"> 
+                    <div class="flex-example__three"> 1 </div>
+                    <div class="flex-example__three"> 2 </div>
+                    <div class="flex-example__three"> 3 </div>
+                    <div class="flex-example__three"> 4 </div>
+                </div>
+                <h3 class="sub-title"> gap-column </h3>
+                <div class="gap"> 
+                    <div class="gap__column"> 1 </div>
+                    <div class="gap__column"> 2 </div>
+                    <div class="gap__column"> 3 </div>
+                    <div class="gap__column"> 4 </div>
+                </div>
+                <h3 class="sub-title"> row-gap </h3>
+                <div class="gap"> 
+                    <div class="gap__row"> 1 </div>
+                    <div class="gap__row"> 2 </div>
+                    <div class="gap__row"> 3 </div>
+                    <div class="gap__row"> 4 </div>
+                    <div class="gap__row"> 5 </div>
+                    <div class="gap__row"> 6 </div>
+                </div>
+                <h3 class="sub-title"> Приклад 4 колонки  </h3>
+                	<!-- FLEX-контейнер -->
+					<div class="page-row">
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Колонка №1
+							</div>
+						</div>
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Колонка №2
+							</div>
+						</div>
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Колонка №3
+							</div>
+						</div>
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Колонка №4
+							</div>
+						</div>
+					</div>
+                    <h3 class="sub-title"> order </h3>
+                    <div class="order"> 
+                        <div class="order__one"> 1 </div>
+                        <div class="order__one"> 2 </div>
+                        <div class="order__one"> 3 </div>
+                        <div class="order__one"> 4 </div>
+                    </div>
+                    <h3 class="sub-title"> Приклад з текстом (посиланням) </h3>
+                    <div class="page-block">
+                        <div class="text-block">
+                            <h1 class="text-block__title">I'm title</h1>
+                            <a href="" class="text-block__link">I'm link</a>
+                            <div class="text-block__text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sit praesentium adipisci. Delectus veritatis nam unde doloremque incidunt vitae in facilis neque ullam quod rerum iusto repellat molestiae, alias at.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Приклад з картками -->
+                    <h3 class="sub-title"> Приклад з картками </h3>
+                    <div class="cards">
+						<div class="cards__column">
+							<div class="cards__item item-card">
+								<div class="item-card__image">
+									<img src="img/01.jpg" alt="">
+								</div>
+								<div class="item-card__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt eaque odio dicta!
+								</div>
+								<a href="" class="item-card__button">Button</a>
+							</div>
+						</div>
+						<div class="cards__column">
+							<div class="cards__item item-card">
+								<div class="item-card__image">
+									<img src="img/01.jpg" alt="">
+								</div>
+								<div class="item-card__text">
+									Lorem ipsum dolor sit amet consectetur 
+								</div>
+								<a href="" class="item-card__button">Button</a>
+							</div>
+						</div>
+						<div class="cards__column">
+							<div class="cards__item item-card">
+								<div class="item-card__image">
+									<img src="img/01.jpg" alt="">
+								</div>
+								<div class="item-card__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt eaque odio dicta!
+								</div>
+								<a href="" class="item-card__button">Button</a>
+							</div>
+						</div>
+					</div>
+                    <h3 class="sub-title"> Приклад з текстом та псевдоелементом </h3>
+                    <div class="gipertext"> 
+                        <a href="" class="link">Я посилання</a>
+                    </div>
+                    <h3 class="sub-title"> Приклад з текстом та зображенням  </h3>
+                        <div class="object">
+                            <div class="object__icon"></div>
+                            <div class="object__title">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus magni inventore, eveniet enim veritatis fugiat corrupti? Minima voluptatum magni, animi corporis, laborum dolore facere nisi nulla repellat illum, consectetur doloremque?
+                            </div>
+                        </div>
+                    <h3 class="sub-title"> Приклад з float  </h3>
+                    <div class="float"> 
+                        <img class="image" style="width: 100px;" src="img/01.jpg" alt="">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi excepturi perferendis consectetur harum reiciendis dignissimos rem odio consequuntur? Voluptates, libero ullam repudiandae magni recusandae aperiam perspiciatis sit architecto quia unde?
+                    </div>
+                    <div class="example__item item-example">
+                        <div class="item-example__image">
+                            <img src="img/01.jpg" alt="">
+                        </div>
+                        <div class="item-example__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis provident maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil culpa qui earum. Iste!
+                        </div>
+                    </div>
+                    <div class="example__item item-example">
+                        <div class="item-example__image">
+                            <img src="img/01.jpg" alt="">
+                        </div>
+                        <div class="item-example__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis provident maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil culpa qui earum. Iste!
+                        </div>
+                    </div>
+                    <div class="example__item item-example">
+                        <div class="item-example__image">
+                            <img src="img/01.jpg" alt="">
+                        </div>
+                        <div class="item-example__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis provident maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil culpa qui earum. Iste!
+                        </div>
+                    </div>
+        </div>
+        </main>
+        <footer class="footer"> 
+            <span class="footer__text"> I'm footer  </span> 
+        </footer>
+    </div>
+</body>
+</html>
